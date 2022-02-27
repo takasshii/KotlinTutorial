@@ -12,6 +12,8 @@ android {
         targetSdk 31
         versionCode 1
         versionName "1.0"
+        //これでAPIvが21以下でもxmlファイルの画像ファイルが作成される
+        vectorDrawables.useSupportLibrary = true
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
